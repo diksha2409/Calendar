@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="66.334">
+    <testcase classname="Add to do in calendar" name="Add to do in Calendar" time="17.654">
+        <system-out><![CDATA[Given To test todo open the chrome browser and launch the application.......passed
+When User login with username "calseven" and password "test"................passed
+And clicks on login.........................................................passed
+Then User selects date and time.............................................passed
+And User enter name for to do event.........................................passed
+And User clicks on Add to do button.........................................passed
+Then App should display entry for add to do event...........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Create an account" name="Create an account for Calendar" time="13.209">
+        <system-out><![CDATA[Given To create an account open the chrome browser and launch the application.passed
+When User click on Register Now button......................................passed
+Then User navigate to Register page.........................................passed
+And User enters following details...........................................passed
+And User clicks on Register button..........................................passed
+Then User navigate to Calendar screen.......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login an account" name="Login an account for Calendar" time="8.221">
+        <system-out><![CDATA[Given To login into account open the chrome browser and launch the application.passed
+When User clicks on Login button............................................passed
+Then User enters "calsix" in username field.................................passed
+And User enters "test" in password field....................................passed
+And User clicks Login button................................................passed
+Then User navigate to Calendar Page.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login an account" name="Login an account for Calendar 2" time="8.254">
+        <system-out><![CDATA[Given To login into account open the chrome browser and launch the application.passed
+When User clicks on Login button............................................passed
+Then User enters "calfive" in username field................................passed
+And User enters "test" in password field....................................passed
+And User clicks Login button................................................passed
+Then User navigate to Calendar Page.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login an account" name="Login an account for Calendar 3" time="8.179">
+        <system-out><![CDATA[Given To login into account open the chrome browser and launch the application.passed
+When User clicks on Login button............................................passed
+Then User enters "calfour" in username field................................passed
+And User enters "test" in password field....................................passed
+And User clicks Login button................................................passed
+Then User navigate to Calendar Page.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Logout an account" name="Logout an account for Calendar" time="10.469">
+        <system-out><![CDATA[Given To test logout function open the chrome browser and launch the application.passed
+And User login with "calsix" and "test".....................................passed
+And User is on Calendar page................................................passed
+And User clicks on profile name.............................................passed
+When User clicks on Logout button...........................................passed
+Then User navigate to Login Page............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
